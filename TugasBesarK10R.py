@@ -38,7 +38,7 @@ def getNum(x):
         # Jika input (var temp) masih string (gagal convert ke int dan float), 
         # maka munculkan alert dan return dengan variable kosong ('')
         if temp != '' and type(temp) is str:
-            alert('Harap masukkan Jumlah')
+            alert('Harap Nominal Dengan Benar')
             temp = ''
             input1.value = temp
             return temp
